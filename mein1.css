@@ -1,0 +1,35 @@
+body{
+  color: #dc3545; 
+background-image: url(https://i.pinimg.com/originals/8a/cb/7f/8acb7f050b9de9f61a46e3af83f147d1.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+list-style-type: square;
+background: red;
+padding: 15px;
+}
+ul li {
+ background: #cce5ff;
+padding: 5px;
+  margin: 5px 0 0 35px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none ;
+}
+nav > ul ::after{
+  content: " ";
+}
+nav ul li ul{
+  position: absolute;
+  display: none;
+}
+nav ul li:hover ul{
+  display:block;
+}
+nav ul li{
+  margin: 15px;
+}
